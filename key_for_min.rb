@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   hashKey = 100000
-  something = ""
+  something = nil
   name_hash.collect do |starter, pack|
     if hashKey > pack
       something = starter
