@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   hashKey = 100000
   something = 0 
-  hash.each_key do |starter_pack|
+  name_hash.each_key do |starter_pack|
     if hashKey < starter_pack
       hashKey = starter_pack
     end
