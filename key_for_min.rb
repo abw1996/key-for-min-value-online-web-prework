@@ -3,9 +3,11 @@
 
 def key_for_min_value(name_hash)
   hashKey = 100000
-  something = 0 
-  name_hash.each_key do |starter_pack|
-    if hashKey < starter_pack
+  something = 0
+  
+   name_hash.each_key do |starter_pack|
+      if starter_pack = String
+      if hashKey < starter_pack
       hashKey = starter_pack
     end
   end
