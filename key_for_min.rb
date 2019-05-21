@@ -7,6 +7,11 @@ def key_for_min_value(name_hash)
   key_array = name_hash.collect do |starter, pack|
     pack
   end
-  return something
+  key_array.each do |item|
+    if hashKey > item
+      hashKey = item 
+    end
+  end
+  
   
 end
