@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       hashKey = starter_pack
     end
   end
-  
+  name_hash.index(hashKey)
     
   
 end
