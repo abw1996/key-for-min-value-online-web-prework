@@ -12,6 +12,6 @@ def key_for_min_value(name_hash)
       hashKey = item 
     end
   end
-  
+  name_hash.index(hashKey)
   
 end
