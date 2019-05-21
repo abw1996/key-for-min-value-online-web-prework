@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   something = 0
   
    name_hash.each_key do |starter_pack|
-      if starter_pack = String
+      if starter_pack == starter_pack.to_s
       if hashKey < starter_pack
       hashKey = starter_pack
     end
