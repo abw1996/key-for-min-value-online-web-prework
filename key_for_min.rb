@@ -3,4 +3,6 @@
 
 def key_for_min_value(name_hash)
   hashKey =hash.fetch(0, [0])
+  hashKey
+  
 end
