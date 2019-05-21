@@ -7,4 +7,8 @@ def key_for_min_value(name_hash)
   name_hash.collect do |starter, pack|
     if hashKey > pack
       something = starter
+    end
+  end
+  return something
+  
 end
